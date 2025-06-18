@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.highlight {
+  background-color: rgb(240, 76, 240); /* or your color */
+  padding: 0 8px; /* optional for spacing */
+  display: inline-block; /* ensures background fits only text */
+  border-radius: 4px; /* optional rounded corners */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 500px;
+  font-size: 14px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-height: 300px;
+  font-size: 18px;
+  padding-top: 20px;
+  border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.list {
+  text-align: left;
 }
-
-.card {
-  padding: 2em;
+.list ul {
+  padding-left: 0px;
+  padding-right: 15px;
 }
-
-.read-the-docs {
-  color: #888;
+.list ul li {
+  background-color: rgb(240, 76, 240);
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
 }
